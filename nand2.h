@@ -10,6 +10,7 @@ SC_MODULE(nand2)          // declare nand2 sc_module
   {
 
 	// TODO: put your implementation here
+	F.write(!(A.read() && B.read()));
 
   }
 
